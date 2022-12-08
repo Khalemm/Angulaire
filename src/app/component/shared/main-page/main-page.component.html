@@ -1,1 +1,8 @@
-<p>main-page works!</p>
+<h1>main-page works!</h1>
+<div class="row d-flex">
+    <div *ngFor="let item of items" class="col">
+        <app-item-card [item]="item"></app-item-card>
+    </div>
+</div>
+
+
