@@ -1,1 +1,23 @@
-<p>panier works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col colonne">Produit</div>
+        <div class="col colonne">Image</div>
+        <div class="col colonne">Specs</div>
+        <div class="col colonne">Quantité</div>
+        <div class="col colonne">Prix</div>
+        <div class="col colonne">Modifier</div>
+    </div>
+    <div *ngFor="let cart of user.card">
+        <app-item-info [cart]="cart" (updateCart)="update()"></app-item-info>
+    </div>
+</div>
+<hr class="my-4">
+
+<div style="margin-left: 500px;">
+    <h4 class="fw-bold">Votre Total :</h4>
+    <div *ngFor="let cart of user.card">
+        <p>{{cart.numberOfItem}} {{cart.item.name}} : {{cart.item.price*cart.numberOfItem}}$</p>
+    </div>
+    <hr>
+    <p>Total = {{total}}$</p>
+</div>

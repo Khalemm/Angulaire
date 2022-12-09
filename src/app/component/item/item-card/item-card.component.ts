@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Card } from 'src/app/entities/card';
+import { Cart } from 'src/app/entities/cart';
 import { Item } from 'src/app/entities/item';
 
 @Component({
@@ -31,10 +31,10 @@ export class ItemCardComponent implements OnInit{
     let userString = localStorage.getItem("user");
     if(userString != null){
       let user = JSON.parse(userString);
-      let cardFound = user.card.find((card: Card) => card.item.name == this.item.name);
+      let cardFound = user.card.find((card: Cart) => card.item.name == this.item.name);
       if(cardFound == undefined) {
         //add the product in the cart
-        const card:Card = {numberOfItem:1,item:this.item};
+        const card:Cart = {numberOfItem:1,item:this.item};
         user.card.push(card)
       } else {
         //add one more of this product in the cart

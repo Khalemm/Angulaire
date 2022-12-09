@@ -1,1 +1,22 @@
-<p>item-info works!</p>
+<div class="row">
+    <div class="col colonne my-auto">
+        <p class="">{{cart.item.name}}</p>
+    </div>
+    <div class="col colonne my-auto"><img src="{{cart.item.image}}"></div>
+    <div class="col colonne my-auto">
+        <p>{{cart.item.color}}</p>
+        <p>{{cart.item.weight}}</p>
+        <p>{{cart.item.storage}}</p>
+        <p>{{cart.item.price}}$</p>
+    </div>
+    <div class="col colonne my-auto">
+        <p>{{cart.numberOfItem}}</p>
+    </div>
+    <div class="col colonne my-auto">
+        <p>{{cart.item.price*cart.numberOfItem}}$</p>
+    </div>
+    <div class="col colonne my-auto">
+        <button class="btn btn-secondary" (click)="add()">+</button>
+        <button class="btn btn-secondary" (click)="remove()">-</button>
+    </div>
+</div>

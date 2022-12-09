@@ -6,7 +6,7 @@
         "color": "black",
         "weight": "250g",
         "storage": "256GB",
-        "price": "1000$"
+        "price": 1000
         
     },
     {
@@ -16,7 +16,7 @@
         "color": "black",
         "weight": "250g",
         "storage": "256GB",
-        "price": "1300$"
+        "price": 1300
     },
     {
         "name":"Samsung 22",
@@ -25,7 +25,7 @@
         "color": "black",
         "weight": "250g",
         "storage": "512GB",
-        "price": "900$"
+        "price": 900
     },
     {
         "name":"Samsung note 10",
@@ -34,7 +34,7 @@
         "color": "black",
         "weight": "250g",
         "storage": "256GB",
-        "price": "950$"
+        "price": 950
     },
     {
         "name":"airpods",
@@ -43,6 +43,6 @@
         "color": "white",
         "weight": "50g",
         "storage": "N/A",
-        "price": "200$"
+        "price": 200
     }
 ]

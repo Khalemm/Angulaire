@@ -5,5 +5,5 @@ export interface Item {
     color: string;
     weight: string;
     storage: string;
-    price: string;
+    price: number;
 }
