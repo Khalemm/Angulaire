@@ -1,27 +1,48 @@
 [
     {
-        "name":"Iphone 13",
-        "image":"https://m.media-amazon.com/images/I/719KiqNv45L._AC_SX522_.jpg",
-        "description":"un iphone 13"
+        "name":"Iphone 12",
+        "image":"assets/iphone12.png",
+        "description":"un iphone 12 trop bien et tout",
+        "color": "black",
+        "weight": "250g",
+        "storage": "256GB",
+        "price": "1000$"
+        
     },
     {
         "name":"Iphone 14",
-        "image":"https://m.media-amazon.com/images/I/719KiqNv45L._AC_SX522_.jpg",
-        "description":"un iphone 13"
+        "image":"assets/iphone14.png",
+        "description":"un iphone 14 sensas",
+        "color": "black",
+        "weight": "250g",
+        "storage": "256GB",
+        "price": "1300$"
     },
     {
-        "name":"Iphone 15",
-        "image":"https://m.media-amazon.com/images/I/719KiqNv45L._AC_SX522_.jpg",
-        "description":"un iphone 13"
+        "name":"Samsung 22",
+        "image":"assets/samsung22.png",
+        "description":"un Samsung 22 du feu de dieu",
+        "color": "black",
+        "weight": "250g",
+        "storage": "512GB",
+        "price": "900$"
     },
     {
-        "name":"Iphone 16",
-        "image":"https://m.media-amazon.com/images/I/719KiqNv45L._AC_SX522_.jpg",
-        "description":"un iphone 13"
+        "name":"Samsung note 10",
+        "image":"assets/samsungnote10.png",
+        "description":"un Samsung note 10 a en tomber par terre",
+        "color": "black",
+        "weight": "250g",
+        "storage": "256GB",
+        "price": "950$"
     },
     {
-        "name":"Iphone 17",
-        "image":"https://m.media-amazon.com/images/I/719KiqNv45L._AC_SX522_.jpg",
-        "description":"un iphone 13"
+        "name":"airpods",
+        "image":"assets/airpods.png",
+        "description":"un airpods pour les Angulariens",
+        "color": "white",
+        "weight": "50g",
+        "storage": "N/A",
+        "price": "200$"
     }
 ]

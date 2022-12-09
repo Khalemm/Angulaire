@@ -10,6 +10,7 @@ import { ItemService } from 'src/app/service/item/item.service';
 export class MainPageComponent implements OnInit{
 
   items: Item[] = [];
+  title: string = "Bienvenue dans mon shop Angulaire !";
 
   constructor(private itemService : ItemService){
 
@@ -19,5 +20,9 @@ export class MainPageComponent implements OnInit{
       this.itemService.getAllItems().subscribe(
         data => this.items.push(data)
       );
+  }
+
+  changeTitle(onHover : boolean){
+    onHover == true ? this.title = "Quel SUPER produit Angularisée!" : this.title = "Bienvenue dans mon shop Angulaire !";
   }
 }
