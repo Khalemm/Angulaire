@@ -28,6 +28,7 @@ export class PanierComponent implements OnInit {
   }
 
   calculTotal() {
+    this.total = 0;
     this.user.card.forEach((card:Cart)=> {
       this.total += card.numberOfItem * card.item.price;
     })
